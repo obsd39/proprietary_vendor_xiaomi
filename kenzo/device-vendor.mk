@@ -38,7 +38,8 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     imscmlibrary \
-    rcsimssettings
+    rcsimssettings \
+    qti-vzw-ims-internal
 
 PRODUCT_PACKAGES += \
     qcnvitems \
