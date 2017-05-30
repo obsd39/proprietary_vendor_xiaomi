@@ -15,7 +15,8 @@
 # Pick up overlay for features that depend on non-open-source files
 
 PRODUCT_PACKAGES += \
-    TimeService
+    TimeService \
+    Turbo
 
 PRODUCT_PACKAGES += \
     izat.xt.srv \
@@ -38,7 +39,8 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     imscmlibrary \
-    rcsimssettings
+    rcsimssettings \
+    qti-vzw-ims-internal
 
 PRODUCT_PACKAGES += \
     qcnvitems \
