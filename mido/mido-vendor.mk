@@ -1097,5 +1097,4 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
     qcrilhook \
-    qti-telephony-common \
-    telephony-ext
+    qti-telephony-common
