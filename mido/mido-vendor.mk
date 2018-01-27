@@ -653,6 +653,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/mido/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/mido/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
+    vendor/xiaomi/mido/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/mido/proprietary/lib/android.hidl.manager@1.0.so:system/lib/android.hidl.manager@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/mido/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
