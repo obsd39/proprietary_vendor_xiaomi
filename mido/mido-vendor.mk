@@ -71,6 +71,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_adsp_avs_config.acdb:system/vendor/etc/acdbdata/QRD/QRD_adsp_avs_config.acdb \
+    vendor/xiaomi/mido/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:system/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
     vendor/xiaomi/mido/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.b00:system/vendor/firmware/a506_zap.b00 \
     vendor/xiaomi/mido/proprietary/vendor/firmware/a506_zap.b01:system/vendor/firmware/a506_zap.b01 \
@@ -637,7 +639,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/soundfx/libdirac.so:system/vendor/lib/soundfx/libdirac.so \
-    vendor/xiaomi/mido/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so
+    vendor/xiaomi/mido/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib64/libfeedbackhandler.so:system/vendor/lib64/libfeedbackhandler.so
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
@@ -765,7 +768,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/etc/perf/perf-profile6.conf:system/vendor/etc/perf/perf-profile6.conf \
     vendor/xiaomi/mido/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/xiaomi/mido/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
-    vendor/xiaomi/mido/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
+    vendor/xiaomi/mido/proprietary/vendor/etc/thermal-engine-8953.conf:system/vendor/etc/thermal-engine-8953.conf \
     vendor/xiaomi/mido/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
     vendor/xiaomi/mido/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so:system/vendor/lib/com.qualcomm.qti.imscmservice@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
@@ -1089,7 +1092,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
-    vendor/xiaomi/mido/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
+    vendor/xiaomi/mido/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
+    vendor/xiaomi/mido/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:system/lib/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/xiaomi/mido/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:system/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/xiaomi/mido/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so \
+    vendor/xiaomi/mido/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/xiaomi/mido/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
