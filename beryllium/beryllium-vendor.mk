@@ -1,4 +1,4 @@
-# Copyright (C) 2018-2019 AOSiP
+# Copyright (C) 2018-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,4 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/beryllium/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so
 
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.fm@1.0
+    vendor.qti.hardware.fm@1.0 \
+    HotwordEnrollmentOKGoogleWCD9340 \
+    HotwordEnrollmentXGoogleWCD9340
