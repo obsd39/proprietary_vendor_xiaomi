@@ -18,6 +18,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/phoenix
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/phoenix/proprietary//lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)//lib/libcameraservice.so \
+    vendor/xiaomi/phoenix/proprietary//lib64/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)//lib64/libcameraservice.so \
     vendor/xiaomi/phoenix/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
     vendor/xiaomi/phoenix/proprietary/framework/audiosphere.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/audiosphere.jar \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCameraEffectJNI.so \
