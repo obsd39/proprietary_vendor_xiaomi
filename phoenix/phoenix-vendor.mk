@@ -26,28 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/framework/audiosphere.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/audiosphere.jar \
     vendor/xiaomi/phoenix/proprietary/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar \
     vendor/xiaomi/phoenix/proprietary/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCameraEffectJNI.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libarcsoft_deflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_deflicker.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_single_chart_calibration.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libarcsoft_wideselfie.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_wideselfie.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libcamera_960_mpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_960_mpbase.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libcamera_arcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_arcsoft_beautyshot.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libcamera_arcsoft_handgesture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_arcsoft_handgesture.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libcamera_beauty_mpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_beauty_mpbase.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libcamera_handgesture_mpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_handgesture_mpbase.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libcamera_wideselfie_mpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_wideselfie_mpbase.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libcit_mpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcit_mpbase.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libcom.xiaomi.camera.algojni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.xiaomi.camera.algojni.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libcom.xiaomi.camera.mianodejni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.xiaomi.camera.mianodejni.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libdeflicker_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeflicker_jni.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libdualcameraddm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdualcameraddm.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libgallery_arcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgallery_arcsoft_dualcam_refocus.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libgallery_mpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgallery_mpbase.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libhandengine.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhandengine.arcsoft.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libjni_dualcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_dualcamera.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libjni_wideselfie.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_wideselfie.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libqvrcamera_client.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqvrcamera_client.qti.so \
-    vendor/xiaomi/phoenix/proprietary/vendor/lib64/librefocus.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librefocus.qti.so \
     vendor/xiaomi/phoenix/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_phoenix:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_phoenix \
     vendor/xiaomi/phoenix/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/phoenix/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service \
