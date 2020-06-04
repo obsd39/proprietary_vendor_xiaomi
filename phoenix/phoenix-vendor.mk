@@ -217,9 +217,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensor.phoenix_ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.phoenix_ov8856.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensor.phoenix_s5k3t2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.phoenix_s5k3t2.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_depth.bin \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_depth_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_depth_mono.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_front.bin \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_front_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_front_mono.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_gc02m1_macro.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_imx686.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_imx686.bin \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_imx686_full_mp.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_imx686_full_mp.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_ov8856.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_ov8856.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_ofilm_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_ofilm_s5k3t2.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_sunny_gc02m1_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_sunny_gc02m1_depth.bin \
@@ -230,7 +233,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.sensormodule.phoenix_sunny_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.phoenix_sunny_s5k3t2.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_depth.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_depth.bin \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_depth_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_depth_mono.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_front.bin \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_front_mono.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_front_mono.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_gc02m1_macro.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_imx686.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_imx686.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/com.qti.tuned.phoenix_ofilm_ov8856.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.phoenix_ofilm_ov8856.bin \
