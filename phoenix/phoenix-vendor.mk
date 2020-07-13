@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_phoenix:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_phoenix \
     vendor/xiaomi/phoenix/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/phoenix/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
+    vendor/xiaomi/phoenix/proprietary/vendor/bin/hw/android.hardware.ir@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.ir@1.0-service \
     vendor/xiaomi/phoenix/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service \
     vendor/xiaomi/phoenix/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@1.0-service \
     vendor/xiaomi/phoenix/proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hardware.misys@2.0-service \
@@ -69,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/lf_facerank_model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/lf_facerank_model.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/male_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_bg.png \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/male_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_icon.png \
-    vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/megviifacepp_0_5_2_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megviifacepp_0_5_2_model \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/morpho_lowlight4.0_3hdr_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight4.0_3hdr_algoup.xml \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/morpho_lowlight4.0_adrc_high_1_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight4.0_adrc_high_1_algoup.xml \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/camera/morpho_lowlight4.0_adrc_high_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/morpho_lowlight4.0_adrc_high_algoup.xml \
@@ -86,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config.cfg \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
+    vendor/xiaomi/phoenix/proprietary/vendor/etc/init/android.hardware.ir@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.ir@1.0-service.rc \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
     vendor/xiaomi/phoenix/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
@@ -162,7 +163,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib/hw/android.hardware.ir@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.ir@1.0-impl.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/hw/audio.primary.sm6150.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sm6150.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.default.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
@@ -172,6 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute_ext.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
@@ -314,9 +318,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/hw/android.hardware.ir@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.ir@1.0-impl.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/hw/audio.primary.sm6150.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sm6150.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/hw/consumerir.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.default.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/hw/displayfeature.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/displayfeature.default.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
@@ -358,6 +364,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
+    vendor/xiaomi/phoenix/proprietary/vendor/lib64/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioconfigstore.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparsers.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioroute_ext.so \
     vendor/xiaomi/phoenix/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
