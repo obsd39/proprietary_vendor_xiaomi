@@ -162,5 +162,6 @@ PRODUCT_PACKAGES += \
     WfdService \
     dpmserviceapp \
     ims \
+    PowerOffAlarm \
     qcrilmsgtunnel \
     WfdCommon
